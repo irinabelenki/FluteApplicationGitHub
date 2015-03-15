@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Irina\AndroidStudioProjects\FluteApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\Irina\AndroidStudioProjects\FluteApplication\app\build\intermediates\pre-dexed\debug\classes-af6381455719333806b13447e243bd9552ca958c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Irina\AndroidStudioProjects\FluteApplication\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\Irina\AndroidStudioProjects\FluteApplication\app\build\intermediates\pre-dexed\debug\classes-af9acf6dcda65dc481423d4d94b7ce117c7666bc.jar" />
+    </item>
+    <item
+        jar="C:\Users\Irina\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\Irina\AndroidStudioProjects\FluteApplication\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-d14e3c1e8e3bc87f7e97a30585fe9a28f0693b2b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Irina\AndroidStudioProjects\FluteApplication\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\Irina\AndroidStudioProjects\FluteApplication\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-5a897538bb2629632216c20bdce4614daa770672.jar" />
+    </item>
+
+</items>
