@@ -93,9 +93,34 @@ public class MultitouchView extends View {
 		// draw all pointers
 		for (int size = mActivePointers.size(), i = 0; i < size; i++) {
 			PointF point = mActivePointers.valueAt(i);
-			if (point != null)
-				mPaint.setColor(colors[i % 9]);
-			canvas.drawRect(0, 0, this.getWidth(), this.getHeight(), mPaint);
+			if (point != null) {
+                mPaint.setColor(colors[i % 9]);
+            }
+
+            int marginY = 60;
+
+            if(point.x < this.getWidth()/2) {
+                if(point.y < this.getHeight()/3) {
+                    canvas.drawRect(0, 0+marginY, this.getWidth()/2, this.getHeight()/3-marginY, mPaint);
+                }
+                else if (point.y > this.getHeight()/3 && point.y < this.getHeight()/3*2) {
+                    canvas.drawRect(0, this.getHeight()/3+marginY, this.getWidth()/2, this.getHeight()/3*2-marginY, mPaint);
+                }
+                else {
+                    canvas.drawRect(0, this.getHeight()/3*2+marginY, this.getWidth()/2, this.getHeight()-marginY, mPaint);
+                }
+            }
+            else {
+                if(point.y < this.getHeight()/3) {
+                    canvas.drawRect(this.getWidth()/2, 0+marginY, this.getWidth(), this.getHeight()/3-marginY, mPaint);
+                }
+                else if (point.y > this.getHeight()/3 && point.y < this.getHeight()/3*2) {
+                    canvas.drawRect(this.getWidth()/2, this.getHeight()/3+marginY, this.getWidth(), this.getHeight()/3*2-marginY, mPaint);
+                }
+                else {
+                    canvas.drawRect(this.getWidth()/2, this.getHeight()/3*2+marginY, this.getWidth(), this.getHeight()-marginY, mPaint);
+                }
+            }
 		}
 		canvas.drawText("Total pointers: " + mActivePointers.size(), 10, 40, textPaint);
 		
